@@ -3,14 +3,14 @@
     "name": "stock-server",
     "builds": [
         {
-            "src": "src/index.ts",
+            "src": "build/index.ts",
             "use": "@vercel/node"
         }
     ],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "src/index.js"
+            "dest": "build/index.js"
         }
     ],
     "outputDirectory": "build"
