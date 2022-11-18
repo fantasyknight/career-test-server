@@ -13,5 +13,5 @@
             "dest": "/index.js"
         }
     ],
-    "outputDirectory": "build"
+    "outputDirectory": "public"
 }
