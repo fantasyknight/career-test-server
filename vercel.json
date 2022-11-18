@@ -13,5 +13,5 @@
             "dest": "/index.ts"
         }
     ],
-    "outputDirectory": "public"
+    "outputDirectory": "build"
 }
